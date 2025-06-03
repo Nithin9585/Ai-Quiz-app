@@ -5,6 +5,16 @@ This web application allows users to upload a PDF or PPTX file (such as lecture 
 
 Once processed, the app creates a Google Form quiz with the generated questions and saves it directly to the user's own Google Drive, giving them full ownership and editing access.
 
+
+## How It Works
+
+1. User uploads a PDF or PPTX file.  
+2. The app parses the file and extracts text content.  
+3. Extracted text is sent to the Gemini AI model, which generates quiz questions in JSON format.  
+4. Using the user's Google access token, the app sends the quiz data to the Google Forms API.  
+5. A Google Form quiz is created or updated, and an editable form link is returned to the user.  
+6. The user can access and edit the quiz directly in Google Forms.
+
 ---
 
 ## Demo
