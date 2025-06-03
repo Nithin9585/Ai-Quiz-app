@@ -6,7 +6,7 @@ import { extractTextFromPDF } from '../../utils/parseFileClient';
 import { extractTextFromPPTX } from '../../utils/extractTextFromPPTX';
 import { useSession } from 'next-auth/react';
 import AuthStatus from '../../components/AuthStatus';
-
+import SEO from '../../components/SEO';
 export default function Home() {
   const [selectedFile, setSelectedFile] = useState(null);
   const [parsedText, setParsedText] = useState('');
@@ -155,6 +155,13 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 to-gray-800 text-white font-sans overflow-hidden">
+    <SEO
+  title="Convert PDF  to Google Form Quiz | AI Quiz App by Nithin N Mysore"
+  description="Easily convert PDF and PPTX files to Google Form quizzes using Gemini AI. Developed by Nithin N Mysore, VIT Bhopal."
+  url="https://ai-quiz-app-nu.vercel.app/"
+/>
+
+
       <div className="absolute top-6 right-8 z-50">
         <AuthStatus />
       </div>
