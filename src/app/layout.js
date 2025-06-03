@@ -12,17 +12,23 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
-
 export const metadata = {
-  title: "Convert PDF to Google Form Quiz | AI Quiz App by Nithin N Mysore",
-  description: "Easily convert PDF and PPTX files to Google Form quizzes using Gemini AI. Developed by Nithin N Mysore, VIT Bhopal.",
+  title: "Ai Quiz App",
+  description: "Automatically generate quizzes from PDFs & PPTX using Gemini AI and Google Forms",
+  metadataBase: new URL("https://ai-quiz-app-nu.vercel.app/"),
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
-    title: "Convert PDF to Google Form Quiz | AI Quiz App by Nithin N Mysore",
-    description: "Easily convert PDF and PPTX files to Google Form quizzes using Gemini AI. Developed by Nithin N Mysore, VIT Bhopal.",
+    title: "Ai Quiz App",
+    description: "Automatically generate quizzes from PDFs & PPTX using Gemini AI and Google Forms| Ai Quiz App by Nithin N VIT Bhopal",
     url: "https://ai-quiz-app-nu.vercel.app/",
-    type: "website",
+  },
+  other: {
+    "google-site-verification": "9__SOhCWiYz4dCQT6b3a2jexCJPzu7oEFD8EhnB2J9A",
   },
 };
+
 
 
 export default async function RootLayout({ children }) {
