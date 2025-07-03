@@ -1,8 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://ai-quiz-app-nu.vercel.app/</loc>
-    <lastmod>2024-06-01</lastmod>
-  </url>
-  <!-- Add more <url> entries for other pages if needed -->
-</urlset>
+<div
+  itemscope
+  itemtype="https://schema.org/Person"
+  className="hidden"
+>
+  <meta itemprop="name" content="Nithin N" />
+  <meta itemprop="jobTitle" content="Full Stack Developer, AI Engineer" />
+  <meta itemprop="url" content="https://ai-quiz-app-nu.vercel.app/" />
+  <meta itemprop="image" content="https://ai-quiz-app-nu.vercel.app/Nithin.jpg" />
+  <meta itemprop="sameAs" content="https://www.linkedin.com/in/nithin-n-a4b837275/" />
+  <meta itemprop="sameAs" content="https://github.com/Nithin9585" />
+  <meta itemprop="alumniOf" content="VIT Bhopal University" />
+  <meta itemprop="address" content="Mysore, Karnataka, India" />
+</div>
+
+<div
+  itemscope
+  itemtype="https://schema.org/WebSite"
+  className="hidden"
+>
+  <meta itemprop="name" content="AI Quiz App" />
+  <meta itemprop="url" content="https://ai-quiz-app-nu.vercel.app/" />
+  <meta itemprop="author" content="Nithin N" />
+</div>
