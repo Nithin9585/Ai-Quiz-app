@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <sitemap>
-    <loc>https://ai-quiz-app-nu.vercel.app/sitemap-0.xml</loc>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://ai-quiz-app-nu.vercel.app/</loc>
     <lastmod>2024-06-01</lastmod>
-  </sitemap>
-  <!-- More <sitemap> entries if needed -->
-</sitemapindex>
+  </url>
+  <!-- Add more <url> entries for other pages if needed -->
+</urlset>
